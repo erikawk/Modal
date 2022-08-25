@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+h1{
+    text-align: center;    
+}
+
+.botao{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: purple;
+    color: aliceblue;
+    cursor: pointer;
+    border: solid purple;
+}
+
+#escrita{
+    font-weight: 600;
+    transform: translate(20%,-25%);
+}
+
+.botao:hover{
+    color: purple;
+    background-color: aliceblue;
+    border: solid purple;
+}
+
+.modal{
+    position: absolute;
+    left: 500px;
+    top: 120px;
+    width: 400px;
+    height: 370px;
+    background-color: purple;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    display: none;
+}
+
+#botaoFechar{
+    position: absolute;
+    top: 0px;
+    left: 365px;
+    background-color: brown;
+    border-radius: 5px;
+    border: solid brown;
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#botaoFechar:hover{
+    background-color: rgb(179, 29, 29);
+    border-color: rgb(179, 29, 29);
+}
+
+#imgGato{
+    height: 250px;
+    width: 300px;
+    border: solid;
+}
